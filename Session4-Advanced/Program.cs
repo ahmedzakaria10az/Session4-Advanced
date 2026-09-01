@@ -160,6 +160,48 @@
             //Console.WriteLine("Phone Numbers:");
             //Console.WriteLine(string.Join(", ", phoneBook.Values));
             #endregion
+
+            #region Exercise 4: Unique Email Validator
+            //1. Create a HashSet<string> with a case-insensitive comparer:
+            //new HashSet<string>(StringComparer.OrdinalIgnoreCase)
+
+            //HashSet<string> emails = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+
+            //2. Add these emails: "ahmed@test.com", "AHMED@test.com", "sara@test.com", "Sara@Test.Com"
+            //emails.Add("ahmed@test.com");
+            //emails.Add("AHMED@test.com");
+            //emails.Add("sara@test.com");
+            //emails.Add("Sara@Test.Com");
+
+            //3. Print Count — how many are actually stored? Explain why.
+            //Console.WriteLine(emails.Count);
+
+            //4. Create two sets: Set A = {1,2,3,4,5} and Set B = {4,5,6,7,8}
+            //HashSet<int> setA = [1, 2, 3, 4, 5];
+            //HashSet<int> setB = [4, 5, 6, 7, 8];
+
+            //5. Print the result of: UnionWith, IntersectWith, ExceptWith
+            //HashSet<int> union = new HashSet<int>(setA);
+            //union.UnionWith(setB);
+            //Console.WriteLine("Union:");
+            //Console.WriteLine(string.Join(", ",union));
+
+            //HashSet<int> intersect = new HashSet<int>(setA);
+            //intersect.IntersectWith(setB);
+            //Console.WriteLine("Intersection:");
+            //Console.WriteLine(string.Join(", ",intersect));
+
+            //HashSet<int> except = new HashSet<int>(setA);
+            //except.ExceptWith(setB);
+            //Console.WriteLine("Except:");
+            //Console.WriteLine(string.Join(", ",except));
+
+            //6.Use IsSubsetOf to check if { 1,2} is a subset of Set A
+            //HashSet<int> smallSet = [1,2];
+
+            //bool result = smallSet.IsSubsetOf(setA);
+            //Console.WriteLine(result);
+            #endregion
         }
     }
 }
