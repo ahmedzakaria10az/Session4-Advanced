@@ -60,6 +60,56 @@
             //    Console.WriteLine(grade);
             //}
             #endregion
+
+            #region Exercise 2: Leaderboard
+            //1. Add: 500="Ahmed", 200="Sara", 800="Ali", 350="Mona"
+            //SortedDictionary<int,string> leaderboard = new SortedDictionary<int,string>();
+
+            //leaderboard.Add(500,"Ahmed");
+            //leaderboard.Add(200,"Sara");
+            //leaderboard.Add(800,"Ali");
+            //leaderboard.Add(350,"Mona");
+
+            //2. Print all entries (they should be sorted by score automatically)
+            //Console.WriteLine("Leaderboard:");
+
+            //foreach (KeyValuePair<int,string> player in leaderboard)
+            //{
+            //    Console.WriteLine(player);
+            //}
+
+            //3. Access the first key and first value
+            //foreach (KeyValuePair<int,string> player in leaderboard)
+            //{
+            //    Console.WriteLine($"First Key: {player.Key}");
+            //    Console.WriteLine($"First Value: {player.Value}");
+            //    break;
+            //}
+
+            //4. Check if score 500 exists
+            //bool result = leaderboard.ContainsKey(500);
+            //Console.WriteLine(result);
+
+            //5. Safely get the player with score 999
+            //string? playerName;
+
+            //if (leaderboard.TryGetValue(999,out playerName))
+            //{
+            //    Console.WriteLine(playerName);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Not found");
+            //}
+
+            //6. Remove the player with score 200 and print the updated list
+            //leaderboard.Remove(200);
+
+            //foreach (KeyValuePair<int,string> player in leaderboard)
+            //{
+            //    Console.WriteLine(player);
+            //}
+            #endregion
         }
     }
 }
