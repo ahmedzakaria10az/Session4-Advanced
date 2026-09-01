@@ -238,6 +238,35 @@ namespace Session4_Advanced
             //Console.WriteLine(Dequed);
             //Console.WriteLine(document);
             #endregion
+
+            #region Exercise 6: Browser History (Undo)
+            //1. Push 5 URLs: "google.com", "github.com", "stackoverflow.com", "youtube.com", "claude.ai"
+            //Stack<string> browserHistory = new Stack<string>();
+
+            //browserHistory.Push("google.com");
+            //browserHistory.Push("github.com");
+            //browserHistory.Push("stackoverflow.com");
+            //browserHistory.Push("youtube.com");
+            //browserHistory.Push("claude.ai");
+
+            //2. Use Peek to see the current page (top of stack)
+            //Console.WriteLine(browserHistory.Peek());
+
+            //3. Press "back" 3 times using Pop — print each page you leave
+            //for (int i = 0; i < 3; i++)
+            //{
+            //    string page = browserHistory.Pop();
+            //    Console.WriteLine(page);
+            //}
+
+            //4. Print the current page after going back
+            //Console.WriteLine($"Current page:{browserHistory.Peek()}");
+
+            //5. Try TryPop on an empty stack — what happens?
+            //bool result = browserHistory.TryPop(out string? browser);
+            //Console.WriteLine(result);
+            //Console.WriteLine(browser);
+            #endregion
         }
     }
 }
