@@ -110,6 +110,56 @@
             //    Console.WriteLine(player);
             //}
             #endregion
+
+            #region Exercise 3: Phone Book
+            //1. Create a Collection with 4 contacts (name → phone number)
+            //Dictionary<string, string> phoneBook = new Dictionary<string, string>();
+
+            //phoneBook.Add("Ahmed","01010101011");
+            //phoneBook.Add("Mostafa","01111010101");
+            //phoneBook.Add("Ali","01212012120");
+            //phoneBook.Add("Omar","01010106688");
+
+            //2. Add a new contact using [] syntax (add or update)
+            //phoneBook["Ammar"] = "01215141716";
+
+            //3. Try adding a duplicate using .Add() — catch the exception and print the error
+            //try
+            //{
+            //    phoneBook.Add("Ahmed","01112315161");
+            //}
+            //catch (ArgumentException)
+            //{
+            //    Console.WriteLine("the key has already been added");
+            //}
+
+            //4. Try adding a duplicate using .TryAdd() — print whether it succeeded
+            //bool result = phoneBook.TryAdd("Ahmed","01020304474");
+            //Console.WriteLine(result);
+
+            //5. Search for a contact that doesn’t exist
+            //if (phoneBook.TryGetValue("Khaled",out string phone))
+            //{
+            //    Console.WriteLine(phone);
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Not Found");
+            //}
+
+            //6. Get a contact with a fallback of "Not Found"
+            //string result = phoneBook.GetValueOrDefault("Khaled","Not Found");
+            // Console.WriteLine(result);
+
+            //7. Print all Keys on one line, then all Values on another line
+            //Console.WriteLine("Names:");
+            //Console.WriteLine(string.Join(", ",phoneBook.Keys));
+
+            //Console.WriteLine("-----------------------------------------------");
+
+            //Console.WriteLine("Phone Numbers:");
+            //Console.WriteLine(string.Join(", ", phoneBook.Values));
+            #endregion
         }
     }
 }
