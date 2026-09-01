@@ -1,4 +1,6 @@
-﻿namespace Session4_Advanced
+﻿using System.Reflection.Metadata;
+
+namespace Session4_Advanced
 {
     internal class Program
     {
@@ -201,6 +203,40 @@
 
             //bool result = smallSet.IsSubsetOf(setA);
             //Console.WriteLine(result);
+            #endregion
+
+            #region Exercise 5: Print Queue Simulator
+            //1. Print the queue contents and Count
+            //Queue<string> documents = new Queue<string>();
+
+            //documents.Enqueue("Report.pdf");
+            //documents.Enqueue("Invoice.pdf");
+            //documents.Enqueue("Letter.docx");
+            //documents.Enqueue("Resume.pdf");
+            //documents.Enqueue("Photo.jpg");
+
+            //foreach (string document in documents)
+            //{
+            //    Console.WriteLine(document);
+            //}
+            //Console.WriteLine($"Count:{documents.Count}");
+
+            //Console.WriteLine("-------------------------------------------------------");
+
+            //2. Use Peek to see which document will print next (without removing)
+            //Console.WriteLine(documents.Peek());
+
+            //3. Process the queue: Dequeue each document and print "Printing: [name]"
+            //while (documents.Count > 0)
+            //{
+            //    string document = documents.Dequeue();
+            //    Console.WriteLine($"Printing:{document}");
+            //}
+
+            //4. Try TryDequeue on the now-empty queue — what happens?
+            //bool Dequed = documents.TryDequeue(out string? document);
+            //Console.WriteLine(Dequed);
+            //Console.WriteLine(document);
             #endregion
         }
     }
